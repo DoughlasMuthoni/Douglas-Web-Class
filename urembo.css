@@ -1,0 +1,26 @@
+
+ul{
+    /* margin: 10%; */
+    list-style-type: none;
+    background-color: rgb(18, 199, 18);
+    overflow: hidden;
+    
+}
+li{
+    float: left;   
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    /* 14px: This is the padding applied to the top and bottom of the element (in this case, the <a> tag).
+    16px: This is the padding applied to the left and right sides of the element */
+    
+}
+
+/* Hovering to black */
+li a:hover {
+    background-color: #111;
+}
